@@ -1,2 +1,3 @@
 # Casino-War
-Casino war game I made myself
+
+To play the game you just need to click the deal button and after 3 seconds the cards will be revealed deciding the winner.
