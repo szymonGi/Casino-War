@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Centering and layout */
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  flex-direction: column; /* Added to keep dealer/player stacked vertically */
+}
+
+/* Dealer elements */
+.dealer {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.dealer p {
+  margin-top: 10px;
+}
+/* Dealer elements */
+
+/* Player elements */
+.player {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.player p {
+  margin-bottom: 10px;
+}
+/* Player elements */
+
+/* Card images */
+img {
+  height: 350px;
+  width: 250px;
+  object-fit: contain; /* Ensures the card image doesn't stretch weirdly */
+}
+/* Card images */
+
+/* Deal button styles */
+.deal-button {
+  margin-top: 5px;
+  padding: 15px;
+  font-size: 1.2rem;
+  border-radius: 20px;
+  border: none;
+  background: blue;
+  color: white;
+  transition: all 0.5s ease;
+}
+
+/* Button hover state */
+.deal-button:hover {
+  cursor: pointer;
+  background: red;
+}
+/* Deal button styles */
